@@ -1,13 +1,25 @@
 package com.company;
 
 
+import com.company.Concurrency.MyRun;
 import com.company.generics.genericMethod;
+
+import java.util.concurrent.Semaphore;
 
 public class Main {
 
     public static void main(String[] args) {
-        mymap();
+        semaphor();
+        //mymap();
     }
+
+    private static void semaphor() {
+        Semaphore semaphore =new Semaphore(5);
+        MyRun run = new MyRun(semaphore);
+        for (int i=0;i<10;++i)
+            new Thread(run).start();
+    }
+
 
     private static void mymap() {
         genericMethod gene =new genericMethod();
@@ -24,4 +36,5 @@ public class Main {
 //        System.out.println(myMap.get("ali"));
 //        System.out.println(myMap.get("mehdi"));
     }
+
 }
