@@ -1,16 +1,28 @@
 package com.company;
 
 
-import com.company.Concurrency.MyRun;
+import com.company.Concurrency.Semaphore.MyRun;
+import com.company.Concurrency.Semaphore.countdown.IndexEmail;
+import com.company.Concurrency.Semaphore.countdown.SendEmail;
+import com.company.Concurrency.Semaphore.countdown.VirusCheck;
 import com.company.generics.genericMethod;
 
+import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.Semaphore;
 
 public class Main {
 
     public static void main(String[] args) {
-        semaphor();
+        countDown();
+        //semaphor();
         //mymap();
+    }
+
+    private static void countDown() {
+        CountDownLatch latch =new CountDownLatch(2);
+        new Thread(new SendEmail(latch)).start();
+        new Thread(new VirusCheck(latch)).start();
+        new Thread(new IndexEmail(latch)).start();
     }
 
     private static void semaphor() {
