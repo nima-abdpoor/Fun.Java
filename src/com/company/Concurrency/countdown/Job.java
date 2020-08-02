@@ -1,4 +1,4 @@
-package com.company.Concurrency.Semaphore.countdown;
+package com.company.Concurrency.countdown;
 
 public class Job {
     public static void job(){

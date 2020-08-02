@@ -1,4 +1,4 @@
-package com.company.Concurrency.Semaphore.countdown;
+package com.company.Concurrency.countdown;
 
 import java.util.concurrent.CountDownLatch;
 

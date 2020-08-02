@@ -1,10 +1,11 @@
 package com.company;
 
 
+import com.company.Concurrency.Atomic.AtomicClass;
 import com.company.Concurrency.Semaphore.MyRun;
-import com.company.Concurrency.Semaphore.countdown.IndexEmail;
-import com.company.Concurrency.Semaphore.countdown.SendEmail;
-import com.company.Concurrency.Semaphore.countdown.VirusCheck;
+import com.company.Concurrency.countdown.IndexEmail;
+import com.company.Concurrency.countdown.SendEmail;
+import com.company.Concurrency.countdown.VirusCheck;
 import com.company.generics.genericMethod;
 
 import java.util.concurrent.CountDownLatch;
@@ -13,9 +14,15 @@ import java.util.concurrent.Semaphore;
 public class Main {
 
     public static void main(String[] args) {
-        countDown();
+        atomicClass();
+        //countDown();
         //semaphor();
         //mymap();
+    }
+
+    private static void atomicClass() {
+        AtomicClass atom =new AtomicClass();
+        atom.Usage(20);
     }
 
     private static void countDown() {
