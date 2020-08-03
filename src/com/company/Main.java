@@ -2,6 +2,7 @@ package com.company;
 
 
 import com.company.Concurrency.Atomic.AtomicClass;
+import com.company.Concurrency.Executor.Execute;
 import com.company.Concurrency.Semaphore.MyRun;
 import com.company.Concurrency.countdown.IndexEmail;
 import com.company.Concurrency.countdown.SendEmail;
@@ -14,10 +15,18 @@ import java.util.concurrent.Semaphore;
 public class Main {
 
     public static void main(String[] args) {
-        atomicClass();
+        Executor();
+        //atomicClass();
         //countDown();
         //semaphor();
         //mymap();
+    }
+
+    private static void Executor() {
+        Execute execute=new Execute();
+        //execute.executeThreadPool(2);
+        //execute.executeSingleThread();
+        execute.executeCachedPool();
     }
 
     private static void atomicClass() {
