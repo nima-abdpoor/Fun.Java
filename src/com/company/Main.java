@@ -7,6 +7,7 @@ import com.company.Concurrency.Semaphore.MyRun;
 import com.company.Concurrency.countdown.IndexEmail;
 import com.company.Concurrency.countdown.SendEmail;
 import com.company.Concurrency.countdown.VirusCheck;
+import com.company.Reflection.UseCircleWithField;
 import com.company.generics.genericMethod;
 
 import java.util.concurrent.CountDownLatch;
@@ -15,11 +16,21 @@ import java.util.concurrent.Semaphore;
 public class Main {
 
     public static void main(String[] args) {
-        Executor();
+        Reflection();
+        //Executor();
         //atomicClass();
         //countDown();
         //semaphor();
         //mymap();
+    }
+
+    private static void Reflection() {
+        UseCircleWithField field = new UseCircleWithField();
+        try {
+            field.use();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     private static void Executor() {
