@@ -18,4 +18,11 @@ public class UseCircleWithField {
             }
         }
     }
+    public void field() throws NoSuchFieldException, IllegalAccessException {
+        Field[]  fields = Circle.class.getFields();
+        Field field = fields[0];
+        field = Circle.class.getField("radius");
+        Circle circle =new Circle();
+        field.set(circle,2.0);
+    }
 }
