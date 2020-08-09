@@ -8,6 +8,8 @@ import com.company.Concurrency.countdown.IndexEmail;
 import com.company.Concurrency.countdown.SendEmail;
 import com.company.Concurrency.countdown.VirusCheck;
 import com.company.Java8.Lambda.Compare;
+import com.company.Java8.MethodRefrence.Converter;
+import com.company.Java8.MethodRefrence.Str;
 import com.company.Reflection.UseCircleWithField;
 import com.company.generics.genericMethod;
 
@@ -17,13 +19,21 @@ import java.util.concurrent.Semaphore;
 public class Main {
 
     public static void main(String[] args) {
-        compare();
+        methodrefrence();
+        //compare();
         //Reflection();
         //Executor();
         //atomicClass();
         //countDown();
         //semaphor();
         //mymap();
+    }
+
+    private static void methodrefrence() {
+        Str str =new Str();
+        Converter<Character,String> converter =str::StartWith;
+        char name = converter.convert("nima");
+        System.out.println(name);
     }
 
     private static void compare() {
