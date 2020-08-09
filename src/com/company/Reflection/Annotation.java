@@ -1,6 +1,5 @@
 package com.company.Reflection;
 
-import javax.security.auth.login.AccountNotFoundException;
 
 public class Annotation {
     public void getAnnotation() throws NoSuchMethodException {
