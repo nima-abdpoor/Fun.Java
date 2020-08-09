@@ -7,6 +7,7 @@ import com.company.Concurrency.Semaphore.MyRun;
 import com.company.Concurrency.countdown.IndexEmail;
 import com.company.Concurrency.countdown.SendEmail;
 import com.company.Concurrency.countdown.VirusCheck;
+import com.company.Java8.Lambda.Compare;
 import com.company.Reflection.UseCircleWithField;
 import com.company.generics.genericMethod;
 
@@ -16,12 +17,18 @@ import java.util.concurrent.Semaphore;
 public class Main {
 
     public static void main(String[] args) {
-        Reflection();
+        compare();
+        //Reflection();
         //Executor();
         //atomicClass();
         //countDown();
         //semaphor();
         //mymap();
+    }
+
+    private static void compare() {
+        Compare compare=new Compare();
+        compare.compare();
     }
 
     private static void Reflection() {

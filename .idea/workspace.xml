@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7133365a-8aa6-4b5e-be12-d2f49fa3cf98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Java8/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Java8/Lambda/Compare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/people/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/people/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Reflection/Annotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Reflection/Annotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -88,7 +90,7 @@
       <workItem from="1596440852785" duration="3693000" />
       <workItem from="1596542168950" duration="2395000" />
       <workItem from="1596614188855" duration="2912000" />
-      <workItem from="1596954136279" duration="1390000" />
+      <workItem from="1596954136279" duration="3112000" />
     </task>
     <task id="LOCAL-00001" summary="implementing generics from each other&#10;restrict generic type ex:number and comparable">
       <created>1595765498705</created>
@@ -153,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596619251447</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="1.starting java8&#10;2.usage of FunctionalInterface annotation in java8">
+      <created>1596956789180</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1596956789180</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,13 +190,14 @@
     <MESSAGE value="usage of Executor.java" />
     <MESSAGE value="working with Field Class and the usage of reflection" />
     <MESSAGE value="get Annotations of a class and method by reflection." />
-    <option name="LAST_COMMIT_MESSAGE" value="get Annotations of a class and method by reflection." />
+    <MESSAGE value="1.starting java8&#10;2.usage of FunctionalInterface annotation in java8" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.starting java8&#10;2.usage of FunctionalInterface annotation in java8" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="156" key="#com.intellij.ide.util.MemberChooser" timestamp="1596542542111">
+    <state x="574" y="156" key="#com.intellij.ide.util.MemberChooser" timestamp="1596957437875">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="574" y="156" key="#com.intellij.ide.util.MemberChooser/0.30.1536.834@0.30.1536.834" timestamp="1596542542111" />
+    <state x="574" y="156" key="#com.intellij.ide.util.MemberChooser/0.30.1536.834@0.30.1536.834" timestamp="1596957437875" />
     <state x="560" y="353" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1596442829843">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
@@ -196,26 +206,26 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="490" y="82" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.30.1536.834@0.30.1536.834" timestamp="1596442928201" />
-    <state x="390" y="30" width="792" height="834" key="CommitChangelistDialog2" timestamp="1596619246658">
+    <state x="390" y="30" width="792" height="834" key="CommitChangelistDialog2" timestamp="1596956785301">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="390" y="30" width="792" height="834" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1596619246658" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1596544643116">
+    <state x="390" y="30" width="792" height="834" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1596956785301" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1596958262828">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1596544643115" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1596544643115">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1596958262828" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1596958262826">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1596544643115" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1596544643114">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1596958262826" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1596958262824">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1596544643114" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1596544643115">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1596958262824" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1596958262827">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1596544643115" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1596958262827" />
     <state x="361" y="180" key="Vcs.Push.Dialog.v2" timestamp="1596544494299">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
@@ -224,10 +234,10 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="534" y="305" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1596954140695" />
-    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596956709995">
+    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596958409779">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1596956709995" />
+    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1596958409779" />
     <state x="182" y="59" key="new project wizard" timestamp="1593753715156">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
