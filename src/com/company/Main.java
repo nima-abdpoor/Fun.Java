@@ -12,14 +12,16 @@ import com.company.Java8.MethodRefrence.Converter;
 import com.company.Java8.MethodRefrence.Str;
 import com.company.Reflection.UseCircleWithField;
 import com.company.generics.genericMethod;
+import com.company.people.Person;
 
+import java.util.Comparator;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.Semaphore;
 
 public class Main {
 
     public static void main(String[] args) {
-        methodrefrence();
+        //methodrefrence();
         //compare();
         //Reflection();
         //Executor();

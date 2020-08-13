@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7133365a-8aa6-4b5e-be12-d2f49fa3cf98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Java8/MethodRefrence/Converter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Java8/MethodRefrence/Str.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/test/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Java8/Lambda/Compare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Java8/Lambda/Compare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +88,7 @@
       <workItem from="1596440852785" duration="3693000" />
       <workItem from="1596542168950" duration="2395000" />
       <workItem from="1596614188855" duration="2912000" />
-      <workItem from="1596954136279" duration="5302000" />
+      <workItem from="1596954136279" duration="8732000" />
     </task>
     <task id="LOCAL-00001" summary="implementing generics from each other&#10;restrict generic type ex:number and comparable">
       <created>1595765498705</created>
@@ -169,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596958451923</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="4.usage of method Reference in java 8">
+      <created>1596961313401</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1596961313401</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,7 +204,8 @@
     <MESSAGE value="get Annotations of a class and method by reflection." />
     <MESSAGE value="1.starting java8&#10;2.usage of FunctionalInterface annotation in java8" />
     <MESSAGE value="3.lambda Expressions" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.lambda Expressions" />
+    <MESSAGE value="4.usage of method Reference in java 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.usage of method Reference in java 8" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="156" key="#com.intellij.ide.util.MemberChooser" timestamp="1596957437875">
@@ -214,30 +220,30 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="490" y="82" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.30.1536.834@0.30.1536.834" timestamp="1596442928201" />
-    <state x="390" y="30" width="792" height="834" key="CommitChangelistDialog2" timestamp="1596958450332">
+    <state x="390" y="30" width="792" height="834" key="CommitChangelistDialog2" timestamp="1596961311381">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="390" y="30" width="792" height="834" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1596958450332" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1596960814351">
+    <state x="390" y="30" width="792" height="834" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1596961311381" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1596992607087">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1596960814351" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1596960814351">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1596992607087" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1596992607082">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1596960814351" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1596960814351">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1596992607082" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1596992607081">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1596960814351" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1596960814351">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1596992607081" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1596992607083">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1596960814351" />
-    <state x="361" y="180" key="Vcs.Push.Dialog.v2" timestamp="1596544494299">
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1596992607083" />
+    <state x="361" y="180" key="Vcs.Push.Dialog.v2" timestamp="1596987556219">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="361" y="180" key="Vcs.Push.Dialog.v2/0.30.1536.834@0.30.1536.834" timestamp="1596544494299" />
+    <state x="361" y="180" key="Vcs.Push.Dialog.v2/0.30.1536.834@0.30.1536.834" timestamp="1596987556219" />
     <state x="534" y="305" key="com.intellij.ide.util.TipDialog" timestamp="1596954140695">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
